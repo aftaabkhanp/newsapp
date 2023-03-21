@@ -1,0 +1,41 @@
+.LoginForm{
+    margin: 3%;
+    display: flex;
+    justify-content: center;
+}
+.LoginForm form{
+    padding: 5%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 5px;
+    border-top: 3px solid blueviolet;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+.LoginForm form button:disabled{
+    background-color: rgba(240, 16, 105, 0.45);;
+    border: 0;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    cursor: auto;
+}
+.LoginForm form button{
+    background-color:rgb(240, 16, 106); 
+    border: 0;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.LoginForm form label{
+    font-size:large
+}
+.LoginForm form input{
+    width: 20rem;
+    height: 2rem;
+    font-size: large;
+}
+.LoginForm form button{
+    height: 2.5rem;
+}

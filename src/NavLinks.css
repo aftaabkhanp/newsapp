@@ -1,0 +1,48 @@
+.NavLinks {
+    display: flex;
+
+}
+
+.navs {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.navs {
+    list-style-type: none;
+}
+.navs li{
+    margin: 4px;
+}
+
+.navs a {
+    margin: 10px;
+    text-decoration: none;
+    background-color: rgba(0, 0, 0, 0.45);
+    border-radius: 8px;
+    border-width: 0;
+    color: white;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    list-style: none;
+    margin: 0;
+    padding: 10px 12px;
+    text-align: center;
+    transition: all 200ms;
+    vertical-align: baseline;
+    white-space: nowrap;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+@media only screen and (max-width: 600px) {
+.navs{
+    flex-direction: column;
+}
+}

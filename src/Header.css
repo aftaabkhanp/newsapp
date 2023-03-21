@@ -1,0 +1,19 @@
+.Header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1%;
+    background-color: blueviolet;
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 12px;
+    
+}
+.Header h2{
+    margin: 10px;
+}
+@media only screen and (max-width: 600px) {
+    .Header{
+        flex-direction: column;
+    }
+}
